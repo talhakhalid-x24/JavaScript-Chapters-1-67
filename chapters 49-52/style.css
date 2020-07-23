@@ -1,0 +1,33 @@
+.form-input-area{
+    width: 11%;
+}
+
+button{
+    margin-top: 10px;
+}
+
+.form{
+    text-align: center;
+    background-color: blue;
+    width: 30%;
+    margin: 20px auto;
+}
+
+.form input{
+    margin-top: 10px;
+    margin-left: 10px;    
+}
+
+.form button{
+    margin-bottom: 10px;
+}
+
+table{
+    width: 50%;
+    margin: 0 auto;
+}
+
+table,td,th{
+    border: 1px solid grey;
+    text-align: center;
+}

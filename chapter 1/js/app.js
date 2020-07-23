@@ -1,0 +1,5 @@
+alert('Welcome to the saylani addmission form')
+alert('Welcome to JS Land...\nHappy Coding')
+alert('Welcome to JS Land...')
+alert('Happy Coding')
+alert('Hello... I can run JS through my web browser console')

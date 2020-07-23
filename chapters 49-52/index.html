@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="form-input-area">
+            <label>First Name:</label>
+            <input type="text" name="First Name" id="firstName" required>
+        </div>
+        <div class="form-input-area">
+            <label>Last Name:</label>
+            <input type="text" name="Last Name" id="lastName" required>
+        </div>
+        <div class="form-input-area">
+            <label>User Name:</label>
+            <input type="text" name="User Name" id="userName" required>
+        </div>
+        <div class="form-input-area">
+            <label>Email:</label>
+            <input type="email" name="Email" id="email" required>
+        </div>
+        <div class="form-input-area">
+            <label>Password:</label>
+            <input type="password" name="Password" id="pswrd" required>
+        </div>
+        <div class="form-input-area">
+            <label>Re-Enter Password:</label>
+            <input type="password" name="Re-Enter Password" id="repswrd" required>
+        </div>
+        <button onclick="buttonClick()">Sign Up</button>
+    </form>
+ 
+
+    <div>
+        <p id="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam condimentum posuere nisl. Etiam enim lorem, pellentesque vitae aliquet ut, fringilla quis libero. Suspendisse tristique ipsum vitae elit placerat, in rutrum lectus accumsan. Ut nisl diam, ullamcorper nec sapien quis, dictum luctus mi. </p>
+        <a href="javascript:void(0);" onclick="seeAllText()">Read More >></a>
+    </div>
+<div class="form">
+    <form id="form">
+        <h2>Form</h2>
+        <div class="">
+            <label>Name:</label>
+            <input type="text" name="name" id="first-name" required>
+        </div>
+        <div class="">
+            <label>Class:</label>
+            <input type="number" name="class" id="class" required>
+        </div>
+        <div class="">
+            <label>Course:</label>
+            <input type="text" name="course" id="course" required>
+        </div>
+        <button onclick="addToTable()" id="buttonAdd">Add</button>
+    </form>
+</div>
+    
+    <table>
+        <tr>
+            <th>Edit</th>
+            <th>Name</th>
+            <th>Class</th>
+            <th>Course</th>
+            <th>Delete</th>
+        </tr>
+        <tr>
+            <td id="edit"><button onclick="editRow(this)">🆕</button></td>
+            <td>Talha</td>
+            <td>14</td>
+            <td>Web and Mob</td>
+            <td id="delete"><button onclick="deleteRow(this)">❎</button></td>
+        </tr>
+    </table>
+    <script src="app.js"></script>
+</body>
+</html>
